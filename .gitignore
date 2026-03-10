@@ -1,0 +1,20 @@
+# Unity generated
+Library/
+Temp/
+Logs/
+obj/
+Build/
+Builds/
+UserSettings/
+
+# Visual Studio / Rider
+*.csproj
+*.sln
+*.slnx
+*.user
+.vs/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
