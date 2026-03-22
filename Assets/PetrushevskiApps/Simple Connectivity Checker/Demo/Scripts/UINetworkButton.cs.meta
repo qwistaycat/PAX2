@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8cf6aa9505191a549a41502419cee1e6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193508
+  packageName: Simple Connectivity Checker
+  packageVersion: 0.1
+  assetPath: Assets/PetrushevskiApps/Simple Connectivity Checker/Demo/Scripts/UINetworkButton.cs
+  uploadId: 428596
