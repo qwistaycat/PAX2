@@ -1,0 +1,77 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Unity YAML files — force text mode so diffs are readable,
+# and use Unity's YAML merge tool when available
+*.unity text merge=unityyamlmerge diff
+*.prefab text merge=unityyamlmerge diff
+*.asset text merge=unityyamlmerge diff
+*.meta text merge=unityyamlmerge diff
+*.mat text merge=unityyamlmerge diff
+*.anim text merge=unityyamlmerge diff
+*.controller text merge=unityyamlmerge diff
+*.overrideController text merge=unityyamlmerge diff
+*.physicMaterial text diff
+*.physicsMaterial2D text diff
+*.lighting text diff
+*.preset text diff
+*.signal text diff
+*.inputactions text diff
+
+# Scripts and config
+*.cs text diff=csharp
+*.shader text diff
+*.cginc text diff
+*.hlsl text diff
+*.compute text diff
+*.json text
+*.txt text
+*.xml text
+*.md text
+
+# Images — mark binary so git never tries text diff/merge
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.psd binary
+*.gif binary
+*.bmp binary
+*.hdr binary
+*.cubemap binary
+
+# 3D models
+*.fbx binary
+*.FBX binary
+*.obj binary
+*.blend binary
+*.dae binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aiff binary
+*.aif binary
+
+# Video
+*.webm binary
+*.mp4 binary
+*.mov binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Misc binary
+*.dll binary
+*.so binary
+*.a binary
+*.dylib binary
+*.rsp text
+*.reason text
+*.uss text
+*.wlt binary
